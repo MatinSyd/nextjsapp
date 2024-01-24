@@ -15,7 +15,7 @@ const Wrapper = styled.nav`
 
 const Nav = () => (
   <Wrapper>
-    <Link href='/'><a>home-just</a></Link> |
+    <Link href='/'><a>jus-home</a></Link> |
     <Link href='/about' prefetch><a>About</a></Link> |
     <Link href='/contact' prefetch><a>Contact</a></Link>
   </Wrapper>
