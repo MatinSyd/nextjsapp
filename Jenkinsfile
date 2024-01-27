@@ -23,14 +23,5 @@ pipeline {
                 }
             }
         }
-
-        stage('Deploy') {
-            steps {
-                script {
-                    // Your deployment commands go here
-                    // For example, you might copy files to a server or use another deployment method
-                }
-            }
-        }
     }
 }
